@@ -1,0 +1,7 @@
+Running: xsim.dir/nano_sc_system_behav/xsimk -simmode gui -wdb nano_sc_system_behav.wdb -simrunnum 0 -socket 50627
+Design successfully loaded
+Design Loading Memory Usage: 33572 KB (Peak: 33692 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 1167992 KB (Peak: 1167992 KB)
+Simulation CPU Usage: 360 ms

@@ -1,0 +1,16 @@
+1. 
+2. Blocking assignments will run one line at a time like a code, while non-blocking assignments will run concurrently.
+3. Yes, as such. 
+module shiftC(
+    output q,
+    input clock, d
+    );
+    parameter WIDTH = 4;
+    reg [WIDTH-1:0] q;
+    
+    always @(posedge clock)
+    begin
+        q[0] <= d;
+        q[WIDTH-1:1] <= q[WIDTH-2:0];
+    end
+endmodule

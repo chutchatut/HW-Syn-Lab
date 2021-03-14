@@ -1,0 +1,3 @@
+1) common anode because it's active low.
+2) 0/low
+3) Assuming the desired refresh rate is 20 fps and there're 4-digits. The clock must be 1/(20*4) seconds. You'll need to divide clock by log((1/80) seconds / 10ns) base 2 which is about 20.

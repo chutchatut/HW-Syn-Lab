@@ -1,0 +1,11 @@
+0.7
+2020.1
+May 27 2020
+19:59:15
+/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/clockDiv.v,1598348377,verilog,,/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/hex2SevenSegs.v,,clockDiv,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/hex2SevenSegs.v,1598348382,verilog,,/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/quad2SevenSegs.v,,hex2SevenSegs,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/quad2SevenSegs.v,1599186684,verilog,,/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/system.v,,quad2SevenSegs,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/system.v,1599186444,verilog,,,,system,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab3/lab3/lab3.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab3/lab3/lab3.srcs/sim_1/new/testSinglePulser.v,1599197224,verilog,,,,testSinglePulser,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab3/lab3/lab3.srcs/sources_1/new/singlePulser.v,1599195892,verilog,,/home/chutchatut/work/HW Syn Lab/lab3/lab3/lab3.srcs/sim_1/new/testSinglePulser.v,,singlePulser,,,,,,,,

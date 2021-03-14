@@ -1,0 +1,1 @@
+-wto "1524ae801cda41a28e3f8de31dfbd5c3" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "nano_sc_system_behav" "xil_defaultlib.nano_sc_system" "xil_defaultlib.glbl" -log "elaborate.log" 

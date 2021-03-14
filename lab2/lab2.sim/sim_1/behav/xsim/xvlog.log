@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/clockDiv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clockDiv
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/hex2SevenSegs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex2SevenSegs
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/quad2SevenSegs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module quad2SevenSegs
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/chutchatut/work/HW Syn Lab/lab2/lab2.srcs/sources_1/new/system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module system

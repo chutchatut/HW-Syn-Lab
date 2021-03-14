@@ -1,0 +1,260 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Sep  8 18:12:29 2020
+# Process ID: 309376
+# Current directory: /home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.runs/synth_1
+# Command line: vivado -log system.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system.tcl
+# Log file: /home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.runs/synth_1/system.vds
+# Journal file: /home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source system.tcl -notrace
+Command: synth_design -top system -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 309436
+WARNING: [Synth 8-2611] redeclaration of ansi port Q is not allowed [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.srcs/sources_1/new/binary2BCD.v:34]
+WARNING: [Synth 8-2611] redeclaration of ansi port addr is not allowed [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.srcs/sources_1/new/binary2BCD.v:36]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2093.742 ; gain = 0.000 ; free physical = 1949 ; free virtual = 9639
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'system' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/system.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clockDiv' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/clockDiv.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clockDiv' (1#1) [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/clockDiv.v:23]
+INFO: [Synth 8-6157] synthesizing module 'debouncer' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'debouncer' (2#1) [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-6157] synthesizing module 'singlePulser' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/singlePulser.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'singlePulser' (3#1) [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/singlePulser.v:23]
+INFO: [Synth 8-6157] synthesizing module 'binary2BCD' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.srcs/sources_1/new/binary2BCD.v:23]
+	Parameter ROM_WIDTH bound to: 12 - type: integer 
+	Parameter ROM_ADDR_BITS bound to: 8 - type: integer 
+INFO: [Synth 8-3876] $readmem data file '/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/number.txt' is read successfully [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.srcs/sources_1/new/binary2BCD.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'binary2BCD' (4#1) [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.srcs/sources_1/new/binary2BCD.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'Q' does not match port width (12) of module 'binary2BCD' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/system.v:108]
+INFO: [Synth 8-6157] synthesizing module 'quad2SevenSegs' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/quad2SevenSegs.v:23]
+INFO: [Synth 8-6157] synthesizing module 'hex2SevenSegs' [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/hex2SevenSegs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'hex2SevenSegs' (5#1) [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/hex2SevenSegs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'quad2SevenSegs' (6#1) [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/quad2SevenSegs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'system' (7#1) [/home/chutchatut/work/HW Syn Lab/lab4_3/lab4.srcs/sources_1/new/system.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2093.742 ; gain = 0.000 ; free physical = 1978 ; free virtual = 9728
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2102.477 ; gain = 8.734 ; free physical = 1962 ; free virtual = 9713
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2102.477 ; gain = 8.734 ; free physical = 1962 ; free virtual = 9713
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2102.477 ; gain = 0.000 ; free physical = 1956 ; free virtual = 9707
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/chutchatut/work/HW Syn Lab/lab4_3/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/chutchatut/work/HW Syn Lab/lab4_3/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/chutchatut/work/HW Syn Lab/lab4_3/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2270.227 ; gain = 0.000 ; free physical = 1868 ; free virtual = 9618
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2270.227 ; gain = 0.000 ; free physical = 1868 ; free virtual = 9618
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1911 ; free virtual = 9662
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1910 ; free virtual = 9661
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1910 ; free virtual = 9661
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1900 ; free virtual = 9652
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input    8 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 52    
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 4     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 4     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6040] Register nums_reg driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1872 ; free virtual = 9629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++------------+-----------------------+---------------+----------------+
+|Module Name | RTL Object            | Depth x Width | Implemented As | 
++------------+-----------------------+---------------+----------------+
+|system      | nolabel_line108/Q_reg | 256x11        | Block RAM      | 
++------------+-----------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1776 ; free virtual = 9536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1775 ; free virtual = 9535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance nolabel_line108/Q_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1774 ; free virtual = 9534
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1747 ; free virtual = 9518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1747 ; free virtual = 9518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1747 ; free virtual = 9518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1747 ; free virtual = 9518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1747 ; free virtual = 9518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1747 ; free virtual = 9518
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     2|
+|3     |LUT1     |    19|
+|4     |LUT2     |    13|
+|5     |LUT3     |     1|
+|6     |LUT4     |    14|
+|7     |LUT5     |    10|
+|8     |LUT6     |    36|
+|9     |MUXF7    |     3|
+|10    |RAMB18E1 |     1|
+|11    |FDRE     |    48|
+|12    |IBUF     |    13|
+|13    |OBUF     |    12|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1747 ; free virtual = 9518
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 2270.227 ; gain = 8.734 ; free physical = 1799 ; free virtual = 9570
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2270.227 ; gain = 176.484 ; free physical = 1799 ; free virtual = 9570
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2270.227 ; gain = 0.000 ; free physical = 1869 ; free virtual = 9640
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2270.227 ; gain = 0.000 ; free physical = 1818 ; free virtual = 9588
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 2270.227 ; gain = 176.656 ; free physical = 1954 ; free virtual = 9725
+INFO: [Common 17-1381] The checkpoint '/home/chutchatut/work/HW Syn Lab/lab4_3/lab4_3.runs/synth_1/system.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_utilization_synth.rpt -pb system_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Sep  8 18:12:57 2020...

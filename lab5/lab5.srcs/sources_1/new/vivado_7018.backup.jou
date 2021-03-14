@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Sep 16 18:51:17 2020
+# Process ID: 7018
+# Current directory: /home/chutchatut/work/HW Syn Lab/lab5/lab5.srcs/sources_1/new
+# Command line: vivado
+# Log file: /home/chutchatut/work/HW Syn Lab/lab5/lab5.srcs/sources_1/new/vivado.log
+# Journal file: /home/chutchatut/work/HW Syn Lab/lab5/lab5.srcs/sources_1/new/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {/home/chutchatut/work/HW Syn Lab/lab5/lab5.xpr}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 22
+wait_on_run synth_1
+launch_simulation
+source nano_sc_system.tcl
+current_wave_config {Untitled 1}
+add_wave {{/nano_sc_system/CPU}} 
+current_wave_config {Untitled 1}
+log_wave {/nano_sc_system/CPU} 
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source nano_sc_system.tcl
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source nano_sc_system.tcl
+close_sim
+launch_simulation
+source nano_sc_system.tcl
+close_sim
+launch_simulation
+source nano_sc_system.tcl
+close_sim

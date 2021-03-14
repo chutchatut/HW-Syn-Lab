@@ -1,0 +1,20 @@
+1. Active high because when it is pressed down the output will connect with the 5v line.
+2. Bounce is when switch is toggled and signal become unusable for a short period of time. You can avoid this by using debouncer and single pulser.
+3.
+module singlePulser(
+    output reg Q,
+    input D,
+    input clk
+    );
+    reg last_state;
+    
+    initial
+        last_state = 0;
+    
+    always @(posedge clk)
+    begin
+        last_state <= D;
+        Q <= last_state == 0 && D == 1;
+    end
+endmodule
+

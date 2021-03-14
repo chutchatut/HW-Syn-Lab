@@ -1,0 +1,14 @@
+0.7
+2020.1
+May 27 2020
+19:59:15
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sim_1/new/testDFlipFlop.v,1597227857,verilog,,,,testDFlipFlop,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sim_1/new/testShift.v,1597229555,verilog,,,,testShift,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sim_1/new/tester.v,1597228755,verilog,,,,tester,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/DFlipFlop.v,1597228208,verilog,,/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sim_1/new/testDFlipFlop.v,,DFlipFlop,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/fullAdder.v,1597150066,verilog,,/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/fullAdder2.v,,fullAdder,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/fullAdder2.v,1597227290,verilog,,/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sim_1/new/tester.v,,fullAdder2,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/shiftA.v,1597228338,verilog,,/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/shiftB.v,,shiftA,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/shiftB.v,1597228339,verilog,,/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/shiftC.v,,shiftB,,,,,,,,
+/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sources_1/new/shiftC.v,1597228554,verilog,,/home/chutchatut/work/HW Syn Lab/lab1/lab1.srcs/sim_1/new/testShift.v,,shiftC,,,,,,,,
